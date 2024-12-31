@@ -1,0 +1,30 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#image {
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    border: 2px dashed gray;
+    height: 200px;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+}
+
+.thumb {
+    width: 150px;
+    margin: 10px;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+
+.thumb:focus {
+    outline: none;
+    border-color: blue;
+}
